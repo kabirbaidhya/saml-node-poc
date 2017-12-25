@@ -1,0 +1,19 @@
+{
+  "name": "saml-node-poc",
+  "author": "Kabir Baidhya <kabirbaidhya@gmail.com>",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "samlify": "^2.3.6"
+  },
+  "scripts": {
+    "sp": "nodemon sp.js",
+    "start": "run-p --print-label sp"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5",
+    "npm-run-all": "^4.1.2"
+  }
+}
